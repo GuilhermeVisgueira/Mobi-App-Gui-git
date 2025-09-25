@@ -9,7 +9,7 @@
 import {View} from 'react-native';
 import  {TituloTeste } from './src/components/Title/tituloteste';
 
-function App() {
+function Login() {
   
 
   return (
@@ -26,4 +26,4 @@ function App() {
 
 
 
-export default App;
+export default Login;
