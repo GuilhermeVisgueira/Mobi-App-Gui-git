@@ -1,29 +1,13 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
 
-
-import {View} from 'react-native';
-import  {TituloTeste } from './src/components/Title/tituloteste';
+import Routes from '../src/routes';
 
 function App() {
   
 
   return (
     
-     
-      <View>
-       <TituloTeste/>
-      </View>
-    
+     <Routes/>
   );
 }
-
-
-
-
 
 export default App;
