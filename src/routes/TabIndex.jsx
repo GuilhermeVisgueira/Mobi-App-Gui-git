@@ -4,12 +4,12 @@ import TabRoutes from "./TabNavigation";
 
 export default function Routes()
 {
+  return (
+    <NavigationContainer>
+      <TabRoutes />
 
-  <NavigationContainer>
-    <TabRoutes/>
-
-  </NavigationContainer>
-    
+    </NavigationContainer>
+  );
   
   
 }

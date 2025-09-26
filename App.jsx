@@ -1,12 +1,12 @@
 
-import Routes from '../src/routes';
+import Routes from './src/routes/TabIndex';
 
 function App() {
   
 
   return (
     
-     <Routes/>
+     <Routes />
   );
 }
 

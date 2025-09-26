@@ -6,24 +6,38 @@
  */
 
 
-import {View} from 'react-native';
-import  {TituloTeste } from './src/components/Title/tituloteste';
+import {View, StyleSheet, Text} from 'react-native';
 
-function ListagemEscola() {
+
+export default function ListagemEscolas() {
   
 
   return (
     
      
       <View>
-       <TituloTeste/>
+       <Text style={styles.title}> Tela de Listagem Escolas! </Text>
       </View>
     
   );
 }
 
+const styles = StyleSheet.create({
+
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
+
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold'
+  }
+
+});
 
 
 
 
-export default ListagemEscola;
